@@ -8,4 +8,5 @@ void DFS(int adj[10][10], int visited[10], int v, int n) {
     printf("%d ", v);
     for (int i = 0; i < n; i++)
         if (adj[v][i] && !visited[i]) DFS(adj, visited, i, n);
+
 }
