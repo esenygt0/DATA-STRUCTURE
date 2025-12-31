@@ -20,4 +20,5 @@ int main() {
     printf("Satir Sutun Deger\n");
     for(int i=0; i<k; i++) printf("%d\t%d\t%d\n", sparse[i][0], sparse[i][1], sparse[i][2]);
     return 0;
+
 }
