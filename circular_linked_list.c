@@ -18,4 +18,5 @@ void insert(struct Node** head, int data) {
         temp->next = newNode;
         newNode->next = *head;
     }
+
 }
