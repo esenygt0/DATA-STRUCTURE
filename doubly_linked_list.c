@@ -21,4 +21,5 @@ void deleteNode(struct Node** head, struct Node* del) {
     if (del->next != NULL) del->next->prev = del->prev;
     if (del->prev != NULL) del->prev->next = del->next;
     free(del);
+
 }
