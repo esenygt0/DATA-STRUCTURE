@@ -11,4 +11,5 @@ void add(int arr[], int *n, int idx, int val) {
 void del(int arr[], int *n, int idx) {
     for (int i = idx; i < *n - 1; i++) arr[i] = arr[i+1];
     (*n)--;
+
 }
