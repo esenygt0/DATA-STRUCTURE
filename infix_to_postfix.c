@@ -25,4 +25,5 @@ void convert(char* exp) {
         }
     }
     while(top != -1) printf("%c", stack[top--]);
+
 }
